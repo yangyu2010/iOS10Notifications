@@ -201,7 +201,6 @@
 				TargetAttributes = {
 					86BDAF641E098318004ECF67 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 35B58NE53U;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -432,11 +431,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = iOS10Notifications/iOS10Notifications.entitlements;
-				DEVELOPMENT_TEAM = 35B58NE53U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS10Notifications/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.carmeng.client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyu.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -447,11 +446,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = iOS10Notifications/iOS10Notifications.entitlements;
-				DEVELOPMENT_TEAM = 35B58NE53U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS10Notifications/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.carmeng.client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyu.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

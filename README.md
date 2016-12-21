@@ -89,9 +89,8 @@ swift3.0,在iOS10下本地通知.
 		
 		/// 当接收到通知的时候会来到该方法
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        
-//        print("接收到通知\(response)")
-        
+		//print("接收到通知\(response)")
+		
         //如果response是UNTextInputNotificationResponse 就是快速回复进入app的
         if let response = response as? UNTextInputNotificationResponse {
             print(response.userText)
