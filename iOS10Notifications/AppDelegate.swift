@@ -18,13 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound , .carPlay]) { (success, error) in
-
             if success {
                 print("用户允许本地通知")
             }else {
                 print("用户拒绝本地通知")
             }
-            
         }
         
         application.registerForRemoteNotifications()
